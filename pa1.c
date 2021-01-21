@@ -209,6 +209,7 @@ int delete(struct node*x,int num) {
   }
 }
 //suppose to add a number in sorted order but I managed to revert this function back to a "working" condition after turning it into a seg fault machine
+//***********FIX******************
 int add(struct node*x, int num) {
 
   int index, prev, curr;
